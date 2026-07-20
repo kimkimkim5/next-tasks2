@@ -1,5 +1,3 @@
-import Link from 'next/link';
-import { MdAddTask } from 'react-icons/md';
 import TaskCard from '@/components/TaskCard/TaskCard';
 import { TaskDocument } from '@/models/tasks';
 
