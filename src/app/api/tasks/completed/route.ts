@@ -4,7 +4,7 @@ import { NextResponse } from "next/server";
 
 export const GET = async() => {
     try {
-        await connectDb;
+        await connectDb();
         const completedTasks: TaskDocument[] = await TaskModel.find(
             {
                 isCompleted: true,
